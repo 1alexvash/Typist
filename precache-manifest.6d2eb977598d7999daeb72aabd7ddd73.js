@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/Typist/static/js/runtime~main.95a67731.js"
   },
   {
-    "revision": "7b361056fc499f754774",
+    "revision": "d16885088e2634991447",
     "url": "/Typist/static/js/main.71b87819.chunk.js"
   },
   {
@@ -20,11 +20,11 @@ self.__precacheManifest = [
     "url": "/Typist/static/js/2.b7f52e28.chunk.js"
   },
   {
-    "revision": "7b361056fc499f754774",
-    "url": "/Typist/static/css/main.60cb0586.chunk.css"
+    "revision": "d16885088e2634991447",
+    "url": "/Typist/static/css/main.4fa10582.chunk.css"
   },
   {
-    "revision": "05ea4f6222c4dc6405781f4b93f50c51",
+    "revision": "b6355410518becf2b675b24243e6738e",
     "url": "/Typist/index.html"
   }
 ];
