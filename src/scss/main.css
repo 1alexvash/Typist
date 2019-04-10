@@ -1,0 +1,187 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+}
+
+body {
+  background: black;
+}
+
+.App {
+  width: 320px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .App {
+    width: 100%;
+  }
+}
+
+.App .menu .heading {
+  font-size: 36px;
+  text-align: center;
+}
+
+.App .menu .heading p {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+.App .menu .levels button {
+  cursor: pointer;
+  border: 3px solid white;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 10px 0;
+  width: 100%;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.App .menu .levels button:hover {
+  border-color: red;
+}
+
+.App .menu .total-score {
+  -webkit-animation: blinking 2s;
+          animation: blinking 2s;
+}
+
+@-webkit-keyframes blinking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blinking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App .game .zoom {
+  position: relative;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+}
+
+.App .game .zoom .block {
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 4px;
+  margin: auto;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  -webkit-transform: rotateX(10deg) translateZ(0);
+          transform: rotateX(10deg) translateZ(0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.App .game .zoom .block:hover {
+  border-color: red;
+  -webkit-box-shadow: 1px 2px 5px red;
+          box-shadow: 1px 2px 5px red;
+}
+
+.App .game .zoom .block .symbol {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.App .game .input {
+  margin: 30px 0;
+  padding: 10px;
+  border: 3px solid #0099cc;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.App .game .input:hover {
+  -webkit-box-shadow: 0 0 15px deepskyblue;
+          box-shadow: 0 0 15px deepskyblue;
+}
+
+.App .game .score {
+  margin: 0px 0 30px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.App .game .return-back {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.App .game .return-back button {
+  position: relative;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  background: transparent;
+  font-size: 24px;
+  color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  text-shadow: 1px 2px 7px #333;
+}
+
+.App .game .return-back button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 0%;
+  height: 0%;
+  background: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.App .game .return-back button:hover {
+  color: black;
+}
+
+.App .game .return-back button:hover:before {
+  width: 100%;
+  height: 100%;
+}
