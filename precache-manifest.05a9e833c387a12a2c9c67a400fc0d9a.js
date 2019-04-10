@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/Typist/static/js/runtime~main.95a67731.js"
   },
   {
-    "revision": "acabe279fda862dd7f85",
-    "url": "/Typist/static/js/main.24e6e820.chunk.js"
+    "revision": "7b361056fc499f754774",
+    "url": "/Typist/static/js/main.71b87819.chunk.js"
   },
   {
     "revision": "61433e735fbb2d010e13",
     "url": "/Typist/static/js/2.b7f52e28.chunk.js"
   },
   {
-    "revision": "acabe279fda862dd7f85",
+    "revision": "7b361056fc499f754774",
     "url": "/Typist/static/css/main.60cb0586.chunk.css"
   },
   {
-    "revision": "3776985da43a078c704f8a63f0406929",
+    "revision": "05ea4f6222c4dc6405781f4b93f50c51",
     "url": "/Typist/index.html"
   }
 ];
