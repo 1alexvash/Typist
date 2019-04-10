@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Typist/static/css/main.1fccb17f.chunk.css"
   },
   {
-    "revision": "0583488eef5cc78ad964e9d4980ec8d1",
+    "revision": "d27a97195a33426588d6fce866fed08a",
     "url": "/Typist/index.html"
   }
 ];
