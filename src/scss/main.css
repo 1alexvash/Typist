@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,13 +19,13 @@ input {
 
 body {
   background: black;
+  font-family: "Asap", sans-serif;
 }
 
 .App {
   width: 320px;
   margin: auto;
   padding: 20px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
   color: white;
 }

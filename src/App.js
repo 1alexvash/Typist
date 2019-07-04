@@ -89,7 +89,7 @@ class App extends Component {
             <input
               type="text"
               className="input"
-              autocapitalize="off"
+              autoCapitalize="off"
               value={inputData}
               ref="myInput"
               onChange={e => this.inputTyping(e)}
