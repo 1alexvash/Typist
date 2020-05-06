@@ -1,6 +1,6 @@
 # Typist
 
-This app will help you to practice typing and type faster
+This app will help you to practice typing to type faster
 
 ## Installing the project && running on the local machine
 
